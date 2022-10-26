@@ -7,65 +7,65 @@
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
-
-<div class="example-wrapper">
-    <div class="container">
-        <div class="w-full shadow z-1">
-           <div class="w-full flex justify-center items-center text-center text-3xl py-12 text-white font-bold">Membership Checkout</div>
-        </div>
+<div class="container">
+    <div class="w-full shadow z-1">
+       <div class="w-full flex justify-center items-center text-center text-3xl py-12 text-white font-bold">Membership Checkout</div>
     </div>
-    <div class="mt-6 w-full shadow-lg border rounded-md bg-transparent">
+</div>
+<hr class="w-full dark:border-gray-700 shadow-md">
+<div class="example-wrapper">
+    <div class="mt-6 w-full shadow-lg border dark:border-gray-800 bg-[#1b1b1b]">
         <div class="mx-10">
-            <div class="mt-3 py-2">
-                <h3 class="font-bold">Membership Level <span class="text-sm mx-2">change</span></h3>
-                <p class="">You have selected the free membership level </p>
+            <div class="mt-8 py-2">
+                <h1 class="font-semibold text-2xl">Membership Level <span class="text-sm mx-2">change</span></h1>
+                <p class="mt-6 font-semibold text-xl">You have selected the Free membership level </p>
                 <div class="mt-6">
                     <div class="flex flex-row">
                         <i data-feather="x-circle" class="w-5 mx-3 stroke-3 border-5 border-red-600 text-red-600"></i>
-                        <span class="">Premium Support</span>
+                        <span class="font-semibold text-xl">Premium Support</span>
                     </div>
-                    <div class="flex flex-row">
+                    <div class="flex flex-row mt-3">
                         <i data-feather="x-circle" class="w-5 mx-3 stroke-3 border-5 border-red-600 text-red-600"></i>
-                        <span class="">No Adversitingt</span>
+                        <span class="font-semibold text-xl">No Adversitingt</span>
                     </div>
-                    <div class="flex flex-row">
+                    <div class="flex flex-row mt-3">
                         <i data-feather="x-circle" class="w-5 mx-3 stroke-3 border-5 border-red-600 text-red-600"></i>
-                        <span class="">VIP Member Level</span>
+                        <span class=" font-semibold text-xl">VIP Member Level</span>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="mt-3 mx-10 p-8 flex justify-center items-center border rounded-md bg-transparent mr-10">
-            <h1 class="font-color-dark">The price for membership is
-                <p class="text-center text-3xl text-blue-700 font-bold mt-3">$0.00</p>
-                <p class="text-center mt-3">now</p> 
+        <div class="mt-3 mx-10 p-8 flex justify-center items-center border rounded-sm bg-transparent dark:border-gray-700 shadow-md mr-10">
+            <h1 class="font-color-dark font-semibold text-xl">The price for membership is
+                <p class="text-center text-5xl text-[#14c4f0] font-bold mt-3">$0.00</p>
+                <p class="text-center mt-3 font-semibold text-xl">now</p> 
             </h1>
         </div>
         <div class="mx-10 mt-6">
-            <h3 class="font-bold">Account Information <span class="text-sm mx-1" style="font-style:italic"> Already have an account?</span> <span class="text-sm">Log in here</span></h3>
+            <h1 class="font-semibold text-2xl">Account Information <span class="text-lg mx-1 italic font-semibold"> Already have an account?</span> <span class="text-lg font-semibold">Log in here</span></h1>
         </div>
         <div class="mx-10 mt-3">
-            <label for="username" class="block text-base mb-2">Username</label>
-            <input type="text" id="username" class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-dark-light bg-transparent rounded-md">
+            <label for="username" class="block text-base font-semibold mb-2">Username</label>
+            <input type="text" id="username" class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 dark:border-gray-700 shadow-md focus:border-dark-light bg-transparent rounded-sm">
         </div>
         <div class="mx-10 mt-3">
-            <label for="password" class="block text-base mb-2">Password</label>
-            <input type="password" id="Password" class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-dark-light bg-transparent rounded-md">
+            <label for="password" class="block text-base font-semibold mb-2">Password</label>
+            <input type="password" id="Password" class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 dark:border-gray-700 shadow-md focus:border-dark-light bg-transparent rounded-sm">
         </div>
         <div class="mx-10 mt-3">
-            <label for="ConfirmPassword" class="block text-base mb-2">Confirm Password</label>
-            <input type="password" id="ConfirmPass" class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-dark-light bg-transparent rounded-md">
+            <label for="ConfirmPassword" class="block text-base font-semibold mb-2">Confirm Password</label>
+            <input type="password" id="ConfirmPass" class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 dark:border-gray-700 shadow-md focus:border-dark-light bg-transparent rounded-sm">
         </div>
         <div class="mx-10 mt-3">
-            <label for="EmailAddress" class="block text-base mb-2">Email Address</label>
-            <input type="Email" id="ConfirmPass" class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-dark-light bg-transparent rounded-md">
+            <label for="EmailAddress" class="block text-base font-semibold mb-2">Email Address</label>
+            <input type="Email" id="ConfirmPass" class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 dark:border-gray-700 shadow-md focus:border-dark-light bg-transparent rounded-sm">
         </div>
         <div class="mx-10 mt-3">
-            <label for="ConfirmEmailAddress" class="block text-base mb-2">Confirm Email Address</label>
-            <input type="Email" id="ConfirmPass" class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-dark-light bg-transparent rounded-md">
+            <label for="ConfirmEmailAddress" class="block text-base font-semibold mb-2">Confirm Email Address</label>
+            <input type="Email" id="ConfirmPass" class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 dark:border-gray-700 shadow-md focus:border-dark-light bg-transparent rounded-sm">
         </div>
         <div class="mx-10 mt-3">
-            <input type="text" id="Message" class="border w-full text-sm px-2 py-1 focus:outline-none focus:ring-0 focus:border-dark bg-dark-light rounded-md" placeholder="Please complete all required fields.">
+            <input type="text" id="Message" class="border w-full text-sm px-2 py-1 focus:outline-none focus:ring-0 dark:border-gray-700 shadow-md focus:border-dark-light font-semibold bg-transparent rounded-sm" placeholder="Please complete all required fields.">
         </div>
         <div class="flex justify-center items-center mt-4 mb-6 "> 
             <button type="submit" class="border-5 bg-red-600 rounded-3xl text-white py-2 px-14">Submit and Confirm >>
